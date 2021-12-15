@@ -1,0 +1,24 @@
+.header {
+  background-color: #e903038e;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.info {
+  background-image: radial-gradient(
+    circle 610px at 5.2% 51.6%,
+    rgba(5, 8, 114, 1) 0%,
+    rgba(7, 3, 53, 1) 97.5%
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.people {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+}
