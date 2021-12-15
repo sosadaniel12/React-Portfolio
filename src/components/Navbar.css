@@ -1,5 +1,40 @@
-.navbar {
+/* .navbar {
   color: white;
   height: 180px;
   background-image: url(https://mcdn.wallpapersafari.com/medium/28/93/mUjHF6.jpg);
+} */
+
+@media screen and (min-width: 799px) {
+  .pages {
+    position: relative;
+    left: 10rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .pages {
+    position: relative;
+    left: 20rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .pages {
+    position: relative;
+    left: 35rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .pages {
+    position: relative;
+    left: 45rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .pages {
+    position: relative;
+    left: 55rem;
+  }
 }

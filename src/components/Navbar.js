@@ -4,38 +4,36 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 let styles = {
   navbar: {
     color: "white",
-    marginLeft: "-15px",
-    fontSize: "3em",
+    marginLeft: "1px",
+    fontSize: "2em",
   },
   pages: {
     color: "white",
-    fontSize: "1.5em",
-    display: "flex",
-    justifyContent: "end",
   },
 };
 
 const Navbar1 = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home" style={styles.navbar}>
-          Daniel Sosa
-        </Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#AboutMe" style={styles.pages}>
-            About Me
-          </Nav.Link>
-          <Nav.Link href="#Projects" style={styles.pages}>
-            Projects
-          </Nav.Link>
-          <Nav.Link href="#Contact" style={styles.pages}>
-            Contact
-          </Nav.Link>
-          <Nav.Link href="#Resume" style={styles.pages}>
-            Resume
-          </Nav.Link>
-        </Nav>
+        <h3 style={styles.navbar}>Daniel Sosa</h3>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav>
+            <Nav.Link href="#" className="pages" style={styles.pages}>
+              About Me
+            </Nav.Link>
+            <Nav.Link href="#" className="pages" style={styles.pages}>
+              Projects
+            </Nav.Link>
+            <Nav.Link href="#" className="pages" style={styles.pages}>
+              Contact
+            </Nav.Link>
+            <Nav.Link href="#" className="pages" style={styles.pages}>
+              Resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
