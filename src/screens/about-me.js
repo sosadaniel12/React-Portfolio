@@ -3,20 +3,20 @@ import Navbar1 from "../components/Navbar";
 
 const AboutMe = () => {
   return (
-    <div>
+    <section>
       <Navbar1 />
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <h1>About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, doloremque!
+              Hello! My name is Daniel Sosa. I am a full stack web developer,
+              who is passionate about creating web applications.
             </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
