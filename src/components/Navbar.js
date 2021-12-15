@@ -14,7 +14,14 @@ let styles = {
 
 const Navbar1 = () => {
   return (
-    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
+    <Navbar
+      collapseOnSelect
+      fixed="sticky-top"
+      expand="sm"
+      bg="dark"
+      variant="dark"
+      className="navbar"
+    >
       <Container>
         <h3 style={styles.navbar}>Daniel Sosa</h3>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
