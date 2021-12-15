@@ -5,8 +5,9 @@ import { People } from "react-bootstrap-icons";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section className="outer">
       <Navbar1 />
+
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -18,6 +19,16 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="loop-wrapper">
+        <div className="mountain"></div>
+        <div className="hill"></div>
+        <div className="tree"></div>
+        <div className="tree"></div>
+        <div className="tree"></div>
+        <div className="rock"></div>
+        <div className="truck"></div>
+        <div className="wheels"></div>
       </div>
     </section>
   );
