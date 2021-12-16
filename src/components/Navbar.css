@@ -1,7 +1,11 @@
 .navbar {
   color: white;
   margin-bottom: 3.5em;
-  background-image: url(https://mcdn.wallpapersafari.com/medium/28/93/mUjHF6.jpg);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(30, 180, 165, 1) 0%,
+    rgba(60, 94, 85, 1) 90.1%
+  );
 }
 
 @media screen and (min-width: 799px) {

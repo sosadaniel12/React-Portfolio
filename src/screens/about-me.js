@@ -2,6 +2,7 @@ import React from "react";
 import Navbar1 from "../components/Navbar";
 import "./about-me.css";
 import { People } from "react-bootstrap-icons";
+import "./aboutMediaQueries.css";
 
 const AboutMe = () => {
   return (
@@ -14,8 +15,10 @@ const AboutMe = () => {
             <h1 className="header">About Me</h1>
             <People className="people" />
             <p className="info">
-              Hello! My name is Daniel Sosa. I am a full stack web developer,
-              who is passionate about creating web applications.
+              Hello! My name is Daniel Sosa. I am a Full Stack Web Developer,
+              who is passionate about creating web applications. I thrive on the
+              ability to solve problems, and always strive to learn new
+              technologies.
             </p>
           </div>
         </div>

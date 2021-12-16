@@ -26,14 +26,14 @@
   font-size: 100px;
   display: flex;
   justify-content: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 .loop-wrapper {
   margin: 0 auto;
   position: relative;
   display: block;
-  width: 85%;
+  width: 90%;
   height: 250px;
   overflow: hidden;
   border-bottom: 3px solid #fff;

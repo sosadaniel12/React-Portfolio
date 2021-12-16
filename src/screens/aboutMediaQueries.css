@@ -1,0 +1,35 @@
+@media screen and (min-width: 799px) {
+  .header {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .info {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .loop-wrapper {
+    position: relative;
+    bottom: 9em;
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    max-width: 40%;
+    margin: auto;
+  }
+
+  .info {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .loop-wrapper {
+    position: relative;
+    bottom: 9em;
+    max-width: 70%;
+  }
+}
