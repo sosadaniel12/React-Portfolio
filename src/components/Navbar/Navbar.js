@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 let styles = {
   navbar: {
     color: "white",
@@ -16,7 +17,7 @@ const Navbar1 = () => {
   return (
     <Navbar
       collapseOnSelect
-      fixed="sticky-top"
+      sticky="top"
       expand="lg"
       bg="dark"
       variant="dark"
@@ -26,19 +27,19 @@ const Navbar1 = () => {
         <h3 style={styles.navbar}>Daniel Sosa</h3>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
-            <Nav.Link href="#" className="pages" style={styles.pages}>
+          <Nav className="links">
+            <NavLink to="about" className="pages">
               About Me
-            </Nav.Link>
-            <Nav.Link href="#" className="pages" style={styles.pages}>
+            </NavLink>
+            <NavLink to="/projects" className="pages">
               Projects
-            </Nav.Link>
-            <Nav.Link href="#" className="pages" style={styles.pages}>
+            </NavLink>
+            <NavLink to="/contact" className="pages">
               Contact
-            </Nav.Link>
-            <Nav.Link href="#" className="pages" style={styles.pages}>
+            </NavLink>
+            <NavLink to="/resume" className="pages">
               Resume
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

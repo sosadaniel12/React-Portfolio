@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar1 from "../components/Navbar";
 import "./about-me.css";
 import { People } from "react-bootstrap-icons";
 import "./aboutMediaQueries.css";
@@ -7,8 +6,6 @@ import "./aboutMediaQueries.css";
 const AboutMe = () => {
   return (
     <section className="outer">
-      <Navbar1 />
-
       <div className="container">
         <div className="row">
           <div className="col-md-12">
