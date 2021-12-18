@@ -1,6 +1,5 @@
 import React from "react";
 import "./Resume.css";
-import { Button } from "react-bootstrap";
 
 const Resume = () => {
   return (
@@ -30,21 +29,22 @@ const Resume = () => {
               <h3 className="resume-title">Experience</h3>
               <hr></hr>
               <div className="resume-left-bottom-content">
+                <h4 className="resume-content-title">Engagement Specialist</h4>
+                <h4 className="resume-content-title">Carenet Health</h4>
                 <h4 className="resume-content-title">
-                  Software Engineer Intern
+                  Septmeber 2021 - Present
                 </h4>
-                <h4 className="resume-content-title">UCI Data Science Lab</h4>
-                <h4 className="resume-content-title">May 2020 - Present</h4>
                 <h4 className="resume-content-title">
                   <ul>
+                    <br></br>
                     <li>
-                      Developed a web application for the UCI Data Science Lab
-                      that allows users to visualize the data collected by the
-                      lab.
+                      Quickly and accurately answered customer questions,
+                      suggested effective solutions and resolved issues to
+                      increase customer satisfaction 85%.
                     </li>
+                    <br></br>
                     <li>
-                      Implemented a REST API for the web application that
-                      retrieves data from the database.
+                      Resolved 150 issues over phone with 200 customers daily.
                     </li>
                   </ul>
                 </h4>
@@ -53,7 +53,11 @@ const Resume = () => {
           </div>
         </div>
 
-        <Button className="button" />
+        <button className="resume-button">
+          <a href="https://drive.google.com/file/d/1ykJo1RezqCGv__dgTMIpUkvQPtZwbAfd/view?usp=sharing">
+            Download Resume
+          </a>
+        </button>
       </div>
     </section>
   );

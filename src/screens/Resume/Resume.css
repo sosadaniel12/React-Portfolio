@@ -9,3 +9,34 @@
   display: flex;
   justify-content: center;
 }
+
+.resume-button {
+  width: 50%;
+  height: 8%;
+  border-radius: 10px;
+  background-color: #101820ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  margin: auto;
+  color: white;
+  position: relative;
+  top: 10px;
+  font-weight: 650;
+  padding: 1em;
+}
+
+.resume-button:hover {
+  background-color: white;
+  color: #101820ff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .resume-button {
+    width: 30%;
+    position: relative;
+    top: 3em;
+  }
+}

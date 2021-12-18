@@ -5,7 +5,7 @@
     "image": "https://sosadaniel12.github.io/MyFirstCoolPortfolio/projectsSnaps/moviefinder.png",
     "github": "https://github.com/sosadaniel12/movieFinder",
     "deploy": "https://sosadaniel12.github.io/movieFinder/",
-    "topics": "HTML, CSS, JavaScript, API, Axios, JQuery"
+    "topics": "HTML | CSS | JavaScript | API | Axios | jQuery"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "image": "https://sosadaniel12.github.io/MyFirstCoolPortfolio/projectsSnaps/project2Ecommerce.png",
     "github": "https://github.com/sosadaniel12/electronic-Esite-2",
     "deploy": "https://e-commercesite11.herokuapp.com/login",
-    "topics": "node, sequelize, handlebars, express-session, jawsdb, mysql, model-view-controller, dotenv"
+    "topics": "node | sequelize | handlebars | express-session | jawsdb | mysql, model-view-controller, dotenv"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "image": "https://github.com/fondofhats/tech-blog/raw/main/tech-blog.png",
     "github": "https://github.com/sosadaniel12/MyFirstCoolPortfolio",
     "deploy": "https://sosadaniel12.github.io/MyFirstCoolPortfolio/",
-    "topics": "HTML, CSS, JavaScript, Jquery, Bootstrap"
+    "topics": "HTML | CSS | JavaScript | jquery | Bootstrap"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "image": "https://sosadaniel12.github.io/MyFirstCoolPortfolio/projectsSnaps/project3.png",
     "github": "https://github.com/sosadaniel12/theWorkDayPlanner",
     "deploy": "https://sosadaniel12.github.io/theWorkDayPlanner/",
-    "topics": "moment.js, javascript, jQuery, localStorage, API"
+    "topics": "moment.js | javascript | jQuery | localStorage | API"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "image": "https://sosadaniel12.github.io/MyFirstCoolPortfolio/projectsSnaps/screenshot-127.0.0.1_5501-2021.10.22-20_50_49.png",
     "github": "https://github.com/sosadaniel12/WackyGenerator",
     "deploy": "https://pwa-budget-traker.herokuapp.com/",
-    "topics": "HTML, CSS, JavaScript"
+    "topics": "HTML | CSS | JavaScript"
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "image": "https://sosadaniel12.github.io/MyFirstCoolPortfolio/projectsSnaps/project5.png",
     "github": "https://github.com/sosadaniel12/the-ReadMe500-Generator",
     "deploy": "https://sosadaniel12.github.io/WackyGenerator/",
-    "topics": "Node, Inquirer, Command Line"
+    "topics": "Node | Inquirer | Command Line"
   }
 ]

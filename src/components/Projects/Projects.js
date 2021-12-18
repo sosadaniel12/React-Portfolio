@@ -27,7 +27,7 @@ function ProjectCards(props) {
             />
           </a>
         </p>
-        <p class="topics">({props.topics})</p>
+        <p class="topics">{props.topics}</p>
       </div>
     </div>
   );
