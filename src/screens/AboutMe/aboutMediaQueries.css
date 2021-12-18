@@ -1,9 +1,10 @@
-@media screen and (min-width: 799px) {
-  .header {
-    max-width: 50%;
-    margin: auto;
+@media screen and (max-width: 700px) {
+  .top-title {
+    text-align: center;
   }
+}
 
+@media screen and (min-width: 799px) {
   .info {
     max-width: 70%;
     margin: auto;
@@ -12,14 +13,16 @@
   .loop-wrapper {
     max-width: 80%;
   }
+
+  .top-title {
+    text-align: center;
+    margin: auto;
+    display: block;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  .header {
-    max-width: 40%;
-    margin: auto;
-  }
-
   .info {
     max-width: 50%;
     margin: auto;
