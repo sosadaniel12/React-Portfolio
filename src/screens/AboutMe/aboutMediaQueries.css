@@ -10,8 +10,6 @@
   }
 
   .loop-wrapper {
-    position: relative;
-    bottom: 9em;
     max-width: 80%;
   }
 }
@@ -28,8 +26,10 @@
   }
 
   .loop-wrapper {
-    position: relative;
-    bottom: 9em;
     max-width: 70%;
+  }
+
+  .people {
+    font-size: 200px;
   }
 }

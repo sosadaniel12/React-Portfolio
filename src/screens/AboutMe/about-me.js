@@ -16,19 +16,19 @@ const AboutMe = () => {
               who is passionate about creating web applications. I thrive on the
               ability to solve problems, and always strive to learn new
               technologies.
+              <div className="loop-wrapper">
+                <div className="mountain"></div>
+                <div className="hill"></div>
+                <div className="tree"></div>
+                <div className="tree"></div>
+                <div className="tree"></div>
+                <div className="rock"></div>
+                <div className="truck"></div>
+                <div className="wheels"></div>
+              </div>
             </p>
           </div>
         </div>
-      </div>
-      <div className="loop-wrapper">
-        <div className="mountain"></div>
-        <div className="hill"></div>
-        <div className="tree"></div>
-        <div className="tree"></div>
-        <div className="tree"></div>
-        <div className="rock"></div>
-        <div className="truck"></div>
-        <div className="wheels"></div>
       </div>
     </section>
   );

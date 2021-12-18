@@ -1,50 +1,58 @@
 .navbar {
   color: white;
   margin-bottom: 3.5em;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(30, 180, 165, 1) 0%,
-    rgba(60, 94, 85, 1) 90.1%
-  );
+  background-color: #101820ff;
 }
 
 .pages {
   margin: 15px;
-  font-size: 1.1em;
+  font-size: 22px;
+  font-weight: 650;
   color: white;
+}
+
+.name {
+  color: white;
+  padding: 20px;
+  font-size: 2em;
+  font-weight: 630;
+}
+
+@media screen and (min-width: 450px) {
+  .name {
+    font-size: 3em;
+  }
 }
 
 @media screen and (min-width: 799px) {
   .pages {
     position: relative;
-    left: 10rem;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .pages {
     position: relative;
-    left: 20rem;
+    left: 10rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  .pages {
-    position: relative;
-    left: 35rem;
+  .navbar {
+    font-size: 1em;
   }
 }
 
 @media screen and (min-width: 1500px) {
   .pages {
     position: relative;
-    left: 45rem;
+    left: 32rem;
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1600px) {
   .pages {
     position: relative;
-    left: 55rem;
+    left: 35rem;
   }
 }

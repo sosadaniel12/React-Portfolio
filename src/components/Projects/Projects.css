@@ -1,10 +1,9 @@
 .card {
-  border-radius: 10px;
+  border-radius: 50px;
   min-height: 100%;
   margin: 2rem;
   position: relative;
   width: 400px;
-  border: solid black 10px;
 }
 
 .card:hover {
@@ -16,7 +15,7 @@
   overflow: hidden;
   text-align: center;
   height: 100%;
-  background-color: #fdac53;
+  background-color: #101820ff;
 }
 
 .card .img-container img {
@@ -27,26 +26,28 @@
 
 .card .content {
   font-size: 20px;
-  background-color: #fdac53;
-  color: black;
+  background-color: #101820ff;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
 }
 
 .card-title {
   margin-top: 10px;
-  color: black;
+  color: white;
   font-size: 1.5em;
 }
 
 .project-icon {
   margin: 15px;
+  width: 60px;
+  height: 60px;
 }
 
 .project-icon:hover {
-  box-shadow: rgba(0, 0, 0, 0.575) 3px 5px 5px;
+  box-shadow: #fee715ff 1px 0 10px 1px;
   border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.52);
+  background-color: rgba(254, 231, 21, 0.548);
 }
 
 .project-title {
@@ -55,6 +56,13 @@
 }
 
 .topics {
-  color: rgb(149, 3, 3);
+  color: white;
   padding: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .project-icon {
+    width: 75px;
+    height: 75px;
+  }
 }
