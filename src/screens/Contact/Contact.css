@@ -1,0 +1,14 @@
+.project {
+  height: 114vh;
+}
+
+.btn {
+  color: white;
+  width: 20%;
+}
+
+.btn:hover {
+  color: #101820ff;
+  box-shadow: rgba(0, 0, 0, 0.63) 0px 19px 38px,
+    rgba(0, 0, 0, 0.596) 0px 15px 12px;
+}

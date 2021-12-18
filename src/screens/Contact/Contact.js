@@ -1,29 +1,102 @@
-import React from "react";
+import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
+import "./Contact.css";
 
-const Contact = () => {
+function ContactForm() {
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const { name, email, message } = formState;
+
+  function handleChange(e) {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+
+      if (!isValid) {
+        setErrorMessage("please enter a valid email");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage("");
+      }
+    }
+
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
     <section className="container">
-      <div className="outer">
-        <div className="project">
-          <h2 className="top-title">Contact</h2>
-          <hr></hr>
-        </div>
-        <div className="contact-container">
-          <div className="contact-left">
-            <div className="contact-left-top">
-              <h3 className="contact-title">Email</h3>
-              <hr></hr>
-              <div className="contact-left-top-content">
-                <h4 className="contact-content-title">
-                  <a href="mailto:danielsosa2121@gmail.com" target="_blank"></a>
-                </h4>
-              </div>
-            </div>
+      <div className="project">
+        <h2 data-testid="h1tag" className="top-title">
+          Contact Form
+        </h2>
+        <hr></hr>
+        <form class="justify-content-center" id="contact-form">
+          <div class="mt-5">
+            <label htmlFor="name">Name:</label>
+            <input
+              class="form-control"
+              type="text"
+              name="name"
+              defaultValue={name}
+              onBlur={handleChange}
+            />
           </div>
-        </div>
+          <div class="mt-5">
+            <label htmlFor="email">Email Address:</label>
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              defaultValue={email}
+              onBlur={handleChange}
+            />
+          </div>
+          <div class="mt-5">
+            <label htmlFor="message">Message:</label>
+            <textarea
+              class="form-control"
+              name="message"
+              defaultValue={message}
+              onBlur={handleChange}
+              rows="7"
+            />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+
+          <div class="mt-5 mb-5">
+            <button
+              data-testid="button"
+              class="btn btn-dark "
+              type="submit"
+              onSubmit={handleSubmit}
+            >
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
     </section>
   );
-};
+}
 
-export default Contact;
+export default ContactForm;
