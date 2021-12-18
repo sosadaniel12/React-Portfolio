@@ -1,3 +1,8 @@
+.outer {
+  height: 95vh;
+  background-color: rgb(19, 41, 61);
+}
+
 .header {
   background-color: #e903038e;
   padding: 20px;

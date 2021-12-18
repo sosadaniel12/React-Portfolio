@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./Projects.css";
 
 // Individual Cards
 function ProjectCards(props) {
@@ -10,6 +10,7 @@ function ProjectCards(props) {
       </div>
       <div className="content">
         <p className="card-title">{props.name}</p>
+        <hr></hr>
         <p class="proj-icons-container">
           <a href={props.github}>
             <img
