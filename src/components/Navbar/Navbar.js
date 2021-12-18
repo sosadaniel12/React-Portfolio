@@ -3,16 +3,15 @@ import "./Navbar.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-
 const Navbar1 = () => {
   return (
     <Navbar
       collapseOnSelect
-      sticky="top"
+      position="fixed"
       expand="lg"
       bg="dark"
       variant="dark"
-      className="navbar"
+      className="navbar "
     >
       <Container>
         <h3 className="name">Daniel Sosa</h3>

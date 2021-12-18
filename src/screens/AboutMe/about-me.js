@@ -10,6 +10,7 @@ const AboutMe = () => {
         <div className="row">
           <div className="col-md-12">
             <h2 className="top-title">About Me</h2>
+            <hr></hr>
             <People className="people" />
             <p className="info">
               Hello! My name is Daniel Sosa. I am a Full Stack Web Developer,

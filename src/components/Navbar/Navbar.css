@@ -13,9 +13,10 @@
 
 .name {
   color: white;
-  padding: 20px;
+  padding: 1px;
   font-size: 2em;
-  font-weight: 630;
+  font-weight: 660;
+  font-family: "Oooh Baby", cursive;
 }
 
 @media screen and (min-width: 450px) {

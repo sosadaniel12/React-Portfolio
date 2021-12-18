@@ -1,4 +1,11 @@
 .body {
   background-color: #fee715ff;
   color: #101820ff;
+  min-height: 100%;
+}
+
+@media screen and (min-height: 2000px) {
+  .body {
+    min-height: 100%;
+  }
 }

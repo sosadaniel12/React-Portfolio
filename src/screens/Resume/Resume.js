@@ -25,6 +25,7 @@ const Resume = () => {
                 <br></br>
               </div>
             </div>
+            <hr></hr>
             <div className="resume-left-bottom">
               <h3 className="resume-title">Experience</h3>
               <hr></hr>
@@ -59,6 +60,7 @@ const Resume = () => {
           </a>
         </button>
       </div>
+      <br></br>
     </section>
   );
 };
