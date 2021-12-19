@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import "./Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -94,6 +95,26 @@ function ContactForm() {
             </button>
           </div>
         </form>
+        {/* <h4 className="top-title">Find Me</h4>
+        <hr></hr>
+        <div className="social-media">
+          <a
+            href="https://www.linkedin.com/in/daniel-sosa-a8a8b817b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+            <FontAwesomeIcon icon={["fab", "github"]} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/daniel-sosa-a940381b9/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={["fab", "github"]} />
+          </a>
+          <a href="https://github.com/sosadaniel12"></a>
+        </div> */}
       </div>
     </section>
   );

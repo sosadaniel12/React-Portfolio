@@ -49,6 +49,22 @@ const Resume = () => {
                     </li>
                   </ul>
                 </h4>
+                <br></br>
+                <hr></hr>
+                <h4 className="resume-content-title">Technologies</h4>
+                <hr></hr>
+                <h4 className="resume-content-title">
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                  </ul>
+                </h4>
               </div>
             </div>
           </div>

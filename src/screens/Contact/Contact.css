@@ -12,3 +12,7 @@
   box-shadow: rgba(0, 0, 0, 0.63) 0px 19px 38px,
     rgba(0, 0, 0, 0.596) 0px 15px 12px;
 }
+
+.fab {
+  font-size: 1em;
+}

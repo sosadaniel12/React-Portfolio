@@ -18,9 +18,13 @@
   background-color: #101820ff;
   color: white;
   padding: 20px;
+  border: solid white 1px;
   border-radius: 10px;
   font-size: 1.3em;
   font-weight: 650;
+  box-shadow: rgba(31, 31, 31, 0.4) 5px 5px, rgba(37, 37, 37, 0.3) 10px 10px,
+    rgba(27, 27, 27, 0.2) 15px 15px, rgba(22, 22, 22, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .people {
