@@ -26,6 +26,7 @@
   background-color: #101820ff;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 3em;
 }
 
 .resume-button:hover {
@@ -41,8 +42,6 @@
 
 @media screen and (min-width: 1000px) {
   .resume-button {
-    width: 30%;
-    position: relative;
-    top: 3em;
+    width: 20%;
   }
 }
