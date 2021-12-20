@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer bg-dark">
-      <div className="container">
+      <div className="containers">
         <a href="https://github.com/sosadaniel12">
           <img
             src="https://img.icons8.com/color/48/000000/github--v1.png"

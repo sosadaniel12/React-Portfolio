@@ -34,13 +34,25 @@
 @media screen and (min-width: 1000px) {
   .pages {
     position: relative;
-    left: 10rem;
+    left: 14rem;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .pages {
+    position: relative;
+    left: 23rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .navbar {
     font-size: 1em;
+  }
+
+  .pages {
+    position: relative;
+    left: 29rem;
   }
 }
 
@@ -54,6 +66,13 @@
 @media screen and (min-width: 1600px) {
   .pages {
     position: relative;
-    left: 35rem;
+    left: 43rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .name {
+    position: relative;
+    left: -12rem;
   }
 }
