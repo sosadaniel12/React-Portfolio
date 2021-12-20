@@ -2,12 +2,11 @@
   width: 50%;
   height: 8%;
   border-radius: 10px;
-  background-color: #101820ff;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3em;
-  margin: auto;
+  margin: 1em auto;
   color: white;
   position: relative;
   top: 10px;
@@ -15,6 +14,10 @@
   padding: 1em;
   position: relative;
   transition: all 0.45s ease-Out;
+}
+
+.resume-button a {
+  color: black;
 }
 
 .resumeOuter {
@@ -26,8 +29,13 @@
 }
 
 .resume-button:hover {
-  background-color: white;
-  color: #101820ff;
+  background-color: #101820ff;
+  color: white;
+  cursor: pointer;
+}
+
+.resume-button a:hover {
+  color: white;
   cursor: pointer;
 }
 

@@ -52,9 +52,8 @@
   background-color: rgba(254, 231, 21, 0.548);
 }
 
-.project-title {
-  color: black;
-  background-color: black;
+.card-title {
+  padding: 7px;
 }
 
 .topics {

@@ -4,11 +4,11 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <section className="container">
+      <div className="project">
+        <h2 className="top-title">Resume</h2>
+        <hr></hr>
+      </div>
       <div className="resumeOuter">
-        <div className="project">
-          <h2 className="top-title">Resume</h2>
-          <hr></hr>
-        </div>
         <div className="resume-container">
           <div className="resume-left">
             <div className="resume-left-top">
