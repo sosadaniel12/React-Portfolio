@@ -4,7 +4,7 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <section className="container">
-      <div className="outer">
+      <div className="resumeOuter">
         <div className="project">
           <h2 className="top-title">Resume</h2>
           <hr></hr>
@@ -25,6 +25,21 @@ const Resume = () => {
                 <br></br>
               </div>
             </div>
+            <hr></hr>
+            <h4 className="resume-content-title">Technologies</h4>
+            <hr></hr>
+            <h4 className="resume-content-title">
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+              </ul>
+            </h4>
             <hr></hr>
             <div className="resume-left-bottom">
               <h3 className="resume-title">Experience</h3>
@@ -51,25 +66,10 @@ const Resume = () => {
                 </h4>
                 <br></br>
                 <hr></hr>
-                <h4 className="resume-content-title">Technologies</h4>
-                <hr></hr>
-                <h4 className="resume-content-title">
-                  <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MongoDB</li>
-                    <li>MySQL</li>
-                  </ul>
-                </h4>
               </div>
             </div>
           </div>
         </div>
-
         <button className="resume-button">
           <a href="https://drive.google.com/file/d/1ykJo1RezqCGv__dgTMIpUkvQPtZwbAfd/view?usp=sharing">
             Download Resume

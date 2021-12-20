@@ -16,3 +16,24 @@
 .fab {
   font-size: 1em;
 }
+
+.text {
+  color: white;
+  font-size: 1.2em;
+  background-color: #101820ff;
+  width: 22%;
+  padding: 4px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    width: 150px;
+  }
+
+  .text {
+    width: 100%;
+  }
+}

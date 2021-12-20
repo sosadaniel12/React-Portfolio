@@ -13,6 +13,16 @@
   top: 10px;
   font-weight: 650;
   padding: 1em;
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+
+.resumeOuter {
+  color: white;
+  font-weight: 600;
+  background-color: #101820ff;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .resume-button:hover {

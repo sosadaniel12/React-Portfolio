@@ -49,7 +49,9 @@ function ContactForm() {
         <hr></hr>
         <form class="justify-content-center" id="contact-form">
           <div class="mt-5">
-            <label htmlFor="name">Name:</label>
+            <label className="text" htmlFor="name">
+              Name:
+            </label>
             <input
               class="form-control"
               type="text"
@@ -59,7 +61,9 @@ function ContactForm() {
             />
           </div>
           <div class="mt-5">
-            <label htmlFor="email">Email Address:</label>
+            <label className="text" htmlFor="email">
+              Email Address:
+            </label>
             <input
               class="form-control"
               type="email"
@@ -69,7 +73,9 @@ function ContactForm() {
             />
           </div>
           <div class="mt-5">
-            <label htmlFor="message">Message:</label>
+            <label className="text" htmlFor="message">
+              Message:
+            </label>
             <textarea
               class="form-control"
               name="message"
