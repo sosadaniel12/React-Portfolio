@@ -101,7 +101,7 @@ function ContactForm() {
             </button>
           </div>
         </form>
-        {/* <h4 className="top-title">Find Me</h4>
+        <h4 className="top-title">Find Me</h4>
         <hr></hr>
         <div className="social-media">
           <a
@@ -120,7 +120,7 @@ function ContactForm() {
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
           <a href="https://github.com/sosadaniel12"></a>
-        </div> */}
+        </div>
       </div>
     </section>
   );

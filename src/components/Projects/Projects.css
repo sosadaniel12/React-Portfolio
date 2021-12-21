@@ -1,6 +1,5 @@
 .card {
   min-height: 100%;
-  background-color: #101820ff;
   margin: 2rem;
   position: relative;
   width: 400px;
@@ -8,7 +7,6 @@
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
   padding: -12px;
-  background-color: #101820ff;
 }
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.63) 0px 19px 38px,
@@ -19,29 +17,27 @@
   overflow: hidden;
   text-align: center;
   height: 100%;
-  background-color: #101820ff;
-  border-radius: 5px 5px 0 0;
+  padding: 13px;
 }
 
 .card .img-container img {
   width: 100%;
-  padding: 25px;
+  padding: 8px;
   margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #101820ff;
 }
 
 .card .content {
   font-size: 20px;
-  background-color: #101820ff;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align: center;
-  border-radius: 0 0 5px 5px;
 }
 
 .card-title {
-  margin-top: 10px;
-  color: white;
-  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  font-size: 1.6em;
 }
 
 .project-icon {
@@ -61,8 +57,12 @@
 }
 
 .topics {
-  color: white;
-  padding: 20px;
+  color: rgb(255, 255, 255);
+  padding: 23px;
+  background-color: #101820ff;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 375px) {

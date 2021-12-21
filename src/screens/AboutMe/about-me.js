@@ -11,7 +11,7 @@ const AboutMe = () => {
           <div className="col-md-12">
             <h2 className="top-title">About Me</h2>
             <hr></hr>
-            <img  className="pic" src={require("../../danielsosapic.jpg")} />
+            <img className="pic" src={require("../../danielsosapic.jpg")} />
             <p className="info">
               Hello! My name is Daniel Sosa. I am a Full Stack Web Developer,
               who is passionate about creating web applications. I thrive on the

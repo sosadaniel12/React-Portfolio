@@ -1,17 +1,21 @@
 .body {
-  background: #314755; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #26a0da,
-    #314755
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #26a0da,
-    #314755
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #451a58, #3d3fc8, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   color: #101820ff;
   min-height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media screen and (min-height: 2000px) {

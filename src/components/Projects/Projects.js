@@ -1,12 +1,22 @@
 import React from "react";
 import "./Projects.css";
 
+const styles = {
+  bgColor: {
+    backdropFilter: "blur(8px) saturate(153%)",
+    webkitBackdropFilter: "blur(8px) saturate(153%)",
+    backgroundColor: "rgba(255, 255, 255, 0.61)",
+    borderRadius: "12px",
+    border: "1px solid rgba(209, 213, 219, 0.3)",
+  },
+};
+
 // Individual Cards
 function ProjectCards(props) {
   return (
-    <div className="card">
+    <div className="card" style={styles.bgColor}>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} className="images" />
       </div>
       <div className="content">
         <p className="card-title">{props.name}</p>
