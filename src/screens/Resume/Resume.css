@@ -17,13 +17,8 @@
   text-shadow: 0px 1px 0px #263666;
 }
 
-.myButton:hover {
-  background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
-  background-color: #415989;
-}
-.myButton:active {
-  position: relative;
-  top: 1px;
+.resume-button a {
+  color: white;
 }
 
 .resumeOuter {
@@ -38,16 +33,13 @@
   margin-top: 3em;
 }
 
-/* .resume-button:hover {
+.resume-title {
   background-color: #101820ff;
   color: white;
-  cursor: pointer;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: 700;
 }
-
-.resume-button a:hover {
-  color: white;
-  cursor: pointer;
-} */
 
 @media screen and (min-width: 1000px) {
   .resume-button {

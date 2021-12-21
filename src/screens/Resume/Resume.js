@@ -26,7 +26,7 @@ const Resume = () => {
               </div>
             </div>
             <hr></hr>
-            <h4 className="resume-content-title">Technologies</h4>
+            <h4 className="resume-title">Technologies</h4>
             <hr></hr>
             <h4 className="resume-content-title">
               <ul>
