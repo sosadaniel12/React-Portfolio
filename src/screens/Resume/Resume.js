@@ -41,7 +41,7 @@ const Resume = () => {
               </ul>
             </h4>
             <hr></hr>
-            {/* <div className="resume-left-bottom">
+            <div className="resume-left-bottom">
               <h3 className="resume-title">Experience</h3>
               <hr></hr>
               <div className="resume-left-bottom-content">
@@ -67,14 +67,14 @@ const Resume = () => {
                 <br></br>
                 <hr></hr>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
-        {/* <button className="resume-button">
+        <button className="resume-button">
           <a href="https://drive.google.com/file/d/1ykJo1RezqCGv__dgTMIpUkvQPtZwbAfd/view?usp=sharing">
             Download Resume
           </a>
-        </button> */}
+        </button>
       </div>
       <br></br>
     </section>

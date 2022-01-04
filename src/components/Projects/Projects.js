@@ -6,7 +6,7 @@ const styles = {
     backdropFilter: "blur(8px) saturate(153%)",
     webkitBackdropFilter: "blur(8px) saturate(153%)",
     backgroundColor: "rgba(255, 255, 255, 0.61)",
-    borderRadius: "12px",
+    borderRadius: "5px",
     border: "1px solid rgba(209, 213, 219, 0.3)",
   },
 };
@@ -21,23 +21,25 @@ function ProjectCards(props) {
       <div className="content">
         <p className="card-title">{props.name}</p>
         <hr></hr>
-        <p class="proj-icons-container">
-          <a href={props.github}>
-            <img
-              class="project-icon"
-              src="https://img.icons8.com/fluent/48/000000/github.png"
-              alt="GitHub Repo"
-            />
-          </a>
-          <a href={props.deploy}>
-            <img
-              class="project-icon"
-              src="https://img.icons8.com/fluent/48/000000/domain.png"
-              alt="Live Application"
-            />
-          </a>
-        </p>
-        <p class="topics">{props.topics}</p>
+        <div className="overlay">
+          <p class="proj-icons-container">
+            <a href={props.github}>
+              <img
+                class="project-icon"
+                src="https://img.icons8.com/fluent/48/000000/github.png"
+                alt="GitHub Repo"
+              />
+            </a>
+            <a href={props.deploy}>
+              <img
+                class="project-icon"
+                src="https://img.icons8.com/fluent/48/000000/domain.png"
+                alt="Live Application"
+              />
+            </a>
+          </p>
+          <p class="topics">{props.topics}</p>
+        </div>
       </div>
     </div>
   );
